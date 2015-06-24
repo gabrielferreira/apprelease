@@ -23,4 +23,4 @@ Comming soon...
 - If there is a technical problem with ```apprelease```, [open an issue](https://github.com/gabrielferreira/apprelease/issues/new).
 
 ## License
-This project is licensed under the terms of the MIT license. See the LICENSE file.
+This project is licensed under the terms of the MIT license. See the [LICENSE](https://github.com/gabrielferreira/apprelease/blob/master/LICENSE) file.
