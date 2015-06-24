@@ -1,3 +1,9 @@
+notifications:
+  email:
+    recipients:
+      - contato@gabrielferreira.com
+    on_success: [always|never|change] # default: change
+    on_failure: [always|never|change] # default: always
 language: python
 python:
   - "2.7"
