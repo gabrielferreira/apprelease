@@ -10,3 +10,17 @@ apprelease
 Get in contact with the developer on Twitter: [@RackNerd](https://twitter.com/RackNerd)
 
 -------
+
+## Installation
+
+Comming soon...
+
+## Quick Start
+
+Comming soon...
+
+## Need help?
+- If there is a technical problem with ```apprelease```, [open an issue](https://github.com/gabrielferreira/apprelease/issues/new).
+
+## License
+This project is licensed under the terms of the MIT license. See the LICENSE file.
