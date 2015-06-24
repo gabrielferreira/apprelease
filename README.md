@@ -3,7 +3,7 @@ apprelease
 ============
 [![Twitter: @RackNerd](https://img.shields.io/badge/contact-@racknerd-blue.svg?style=flat)](https://twitter.com/RackNerd)
 [![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/gabrielferreira/apprelease/blob/master/LICENSE)
-[![Build Status](https://img.shields.io/travis/gabrielferreira/apprelease/master.svg?style=flat)](https://travis-ci.org/gabrielferreira/apprelease)
+[![Build Status](https://travis-ci.org/gabrielferreira/apprelease.svg?branch=master)](https://travis-ci.org/gabrielferreira/apprelease)
 
 ######*apprelease* has been developed with the intention of facilitate unofficial apps deployment in developing or approval stages. with apprelease you can manage versions of your app per platform, devices....
 
