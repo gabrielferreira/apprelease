@@ -1,9 +1,11 @@
 from django.db import models
+from django.contrib.auth.models import User
 
 # Create your models here.
 class Platform(models.Model):
     name = models.CharField(max_length=50, help_text='Set the platform name',
                                 unique=True, blank=False, null=False, db_index=True)
+    user = models.ForeignKey(User)
 
     def __unicode__(self):
         return self.name
