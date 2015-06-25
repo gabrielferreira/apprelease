@@ -8,6 +8,9 @@ class Platform(models.Model):
     def __unicode__(self):
         return self.name
 
+    class Meta:
+        ordering = ('name',)
+
 class Application(models.Model):
     name = models.CharField(max_length=150, help_text='Set the application name',
                                 unique=True, blank=False, null=False, db_index=True)
@@ -20,6 +23,9 @@ class Application(models.Model):
     def __unicode__(self):
         return self.name
 
+    class Meta:
+        ordering = ('name',)
+
 
 class Flavour(models.Model):
     name = models.CharField(max_length=150, help_text='Set the flavour name',
@@ -30,3 +36,6 @@ class Flavour(models.Model):
 
     def __unicode__(self):
         return self.name
+
+    class Meta:
+        ordering = ('name',)
