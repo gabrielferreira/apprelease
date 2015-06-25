@@ -40,8 +40,8 @@ class Flavour(models.Model):
         ordering = ('name',)
 
 class Release(models.Model):
-    version = models.CharField(max_length=150, help_text='Set the release version',
-                                unique=True, blank=False, null=False, db_index=True)
+    version = models.CharField(max_length=50, help_text='Set the release version',
+                                blank=False, null=False, db_index=True)
 
     def __unicode__(self):
         return self.version
