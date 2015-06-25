@@ -6,6 +6,7 @@ class Platform(models.Model):
     name = models.CharField(max_length=50, help_text='Set the platform name',
                                 unique=True, blank=False, null=False, db_index=True)
     user = models.ForeignKey(User)
+    slug = models.SlugField(max_length=50)
 
     def __unicode__(self):
         return self.name
@@ -23,6 +24,9 @@ class Application(models.Model):
     slug = models.SlugField(max_length=150)
     platform = models.ManyToManyField('Platform')
     user = models.ForeignKey(User)
+    logo = models.ImageField(upload_to='logos', null=True, blank=True)
+    email = models.EmailField('Email', null=False, blank=False)
+    bundle_id = models.CharField(max_length=250, null=True, blank=True)
 
     def __unicode__(self):
         return self.name
@@ -47,6 +51,11 @@ class Flavour(models.Model):
 class Release(models.Model):
     version = models.CharField(max_length=50, help_text='Set the release version',
                                 blank=False, null=False, db_index=True)
+    flavour = models.ManyToManyField('Flavour')
+    release = models.FileField(upload_to='releases', null=False, blank=False)
+    date = models.DateTimeField(auto_now=True)
+    notes = models.TextField()
+    user = models.ForeignKey(User)
 
     def __unicode__(self):
         return self.version
