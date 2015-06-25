@@ -6,7 +6,8 @@ apprelease
 [![Build Status](https://travis-ci.org/gabrielferreira/apprelease.svg?branch=master)](https://travis-ci.org/gabrielferreira/apprelease)
 [![Code Climate](https://codeclimate.com/github/gabrielferreira/apprelease/badges/gpa.svg)](https://codeclimate.com/github/gabrielferreira/apprelease)
 [![Test Coverage](https://codeclimate.com/github/gabrielferreira/apprelease/badges/coverage.svg)](https://codeclimate.com/github/gabrielferreira/apprelease/coverage)
-[ ![Codeship Status for gabrielferreira/apprelease](https://codeship.com/projects/1bccb4c0-fd0f-0132-aac6-5a06a30fe976/status?branch=master)](https://codeship.com/projects/87668)
+<!--[![Codeship Status for gabrielferreira/apprelease](https://codeship.com/projects/1bccb4c0-fd0f-0132-aac6-5a06a30fe976/status?branch=master)](https://codeship.com/projects/87668)-->
+[![Codeship Status](https://img.shields.io/codeship/d6c1ddd0-16a3-0132-5f85-2e35c05e22b1.svg)](https://codeship.com/projects/87668)
 
 ######*apprelease* has been developed with the intention of facilitate unofficial apps deployment in developing or approval stages. with apprelease you can manage versions of your app per platform, devices....
 
