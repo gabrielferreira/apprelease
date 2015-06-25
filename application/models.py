@@ -22,6 +22,8 @@ class Application(models.Model):
                                 null=False)
     slug = models.SlugField(max_length=150)
     platform = models.ManyToManyField('Platform')
+    user = models.ForeignKey(User)
+
     def __unicode__(self):
         return self.name
 
@@ -34,6 +36,7 @@ class Flavour(models.Model):
     slug = models.SlugField(max_length=150)
     application = models.ForeignKey('Application')
     platform = models.ForeignKey('Platform')
+    user = models.ForeignKey(User)
 
     def __unicode__(self):
         return self.name
