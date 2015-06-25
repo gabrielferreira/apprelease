@@ -13,7 +13,7 @@ install:
   - "python manage.py syncdb --noinput"
   - "python manage.py migrate"
 # command to run tests
-script: nosetests
+script: python manage.py test
 branches:
   only:
     - master
