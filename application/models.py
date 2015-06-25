@@ -26,7 +26,6 @@ class Application(models.Model):
     class Meta:
         ordering = ('name',)
 
-
 class Flavour(models.Model):
     name = models.CharField(max_length=150, help_text='Set the flavour name',
                                 unique=True, blank=False, null=False, db_index=True)
@@ -39,3 +38,13 @@ class Flavour(models.Model):
 
     class Meta:
         ordering = ('name',)
+
+class Release(models.Model):
+    version = models.CharField(max_length=150, help_text='Set the release version',
+                                unique=True, blank=False, null=False, db_index=True)
+
+    def __unicode__(self):
+        return self.version
+
+    class Meta:
+        ordering = ('version',)
