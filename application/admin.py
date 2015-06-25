@@ -13,4 +13,4 @@ class FlavourAdmin (admin.ModelAdmin):
 
 admin.site.register(Platform, PlatformAdmin)
 admin.site.register(Application, ApplicationAdmin)
-admin.site.register(Flavour, FlavourAdmin)
+admin.site.register(Flavour, FlavourAdmin) 
