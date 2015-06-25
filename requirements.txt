@@ -27,3 +27,4 @@ tox==2.1.1
 virtualenv==13.0.3
 wsgiref==0.1.2
 newrelic==2.52.0.40
+python-coveralls==2.5.0
