@@ -5,7 +5,8 @@ apprelease
 [![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/gabrielferreira/apprelease/blob/master/LICENSE)
 [![Build Status](https://travis-ci.org/gabrielferreira/apprelease.svg?branch=master)](https://travis-ci.org/gabrielferreira/apprelease)
 [![Code Climate](https://codeclimate.com/github/gabrielferreira/apprelease/badges/gpa.svg)](https://codeclimate.com/github/gabrielferreira/apprelease)
-[![Test Coverage](https://codeclimate.com/github/gabrielferreira/apprelease/badges/coverage.svg)](https://codeclimate.com/github/gabrielferreira/apprelease/coverage)
+[![Coverage Status](https://coveralls.io/repos/gabrielferreira/apprelease/badge.svg)](https://coveralls.io/r/gabrielferreira/apprelease)
+<!--[![Test Coverage](https://codeclimate.com/github/gabrielferreira/apprelease/badges/coverage.svg)](https://codeclimate.com/github/gabrielferreira/apprelease/coverage)-->
 <!---->
 <!--Travis CI-->
 <!---->
