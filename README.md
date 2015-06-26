@@ -46,9 +46,9 @@ This project is licensed under the terms of the Apache 2.0 license. See the [LIC
 ## Author
 
 Developed and maintained by [Gabriel Ferreira](http://gabrielferreira.com).
-
-Original author & Development lead: [Gabriel Ferreira](http://gabrielferreira.com).
-
-Thanks to everybody that has contributed pull requests, ideas, issues, comments and kind words.
-
+<!---->
+<!--Original author & Development lead: [Gabriel Ferreira](http://gabrielferreira.com).-->
+<!---->
+<!--Thanks to everybody that has contributed pull requests, ideas, issues, comments and kind words.-->
+<!---->
 Please see [AUTHORS.md](https://github.com/gabrielferreira/apprelease/blob/master/AUTHORS.md) for a list of contributors.
