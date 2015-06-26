@@ -2,7 +2,7 @@
 apprelease
 ============
 [![Twitter: @RackNerd](https://img.shields.io/badge/contact-@racknerd-blue.svg?style=flat)](https://twitter.com/RackNerd)
-[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/gabrielferreira/apprelease/blob/master/LICENSE)
+[![License](http://img.shields.io/:license-apache2.0-green.svg?style=flat-square)](https://github.com/gabrielferreira/apprelease/blob/master/LICENSE)
 [![Build Status](https://travis-ci.org/gabrielferreira/apprelease.svg?branch=master)](https://travis-ci.org/gabrielferreira/apprelease)
 [![Code Climate](https://codeclimate.com/github/gabrielferreira/apprelease/badges/gpa.svg)](https://codeclimate.com/github/gabrielferreira/apprelease)
 [![Coverage Status](https://coveralls.io/repos/gabrielferreira/apprelease/badge.svg)](https://coveralls.io/r/gabrielferreira/apprelease)
