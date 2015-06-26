@@ -51,4 +51,4 @@ Original author & Development lead: [Gabriel Ferreira](http://gabrielferreira.co
 
 Thanks to everybody that has contributed pull requests, ideas, issues, comments and kind words.
 
-Please see AUTHORS.md for a list of contributors.
+Please see [AUTHORS.md](https://github.com/gabrielferreira/apprelease/blob/master/AUTHORS.md) for a list of contributors.
