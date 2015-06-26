@@ -1,13 +1,13 @@
 -------
 apprelease
 ============
-[![Twitter: @RackNerd](https://img.shields.io/badge/contact-@racknerd-blue.svg?style=flat-square)](https://twitter.com/RackNerd)
-[![License](http://img.shields.io/:license-apache2.0-green.svg?style=flat-square)](https://github.com/gabrielferreira/apprelease/blob/master/LICENSE)
+[![Twitter: @RackNerd](https://img.shields.io/badge/contact-@racknerd-blue.svg?style=flat)](https://twitter.com/RackNerd)
+[![License](http://img.shields.io/:license-apache2.0-green.svg?style=flat)](https://github.com/gabrielferreira/apprelease/blob/master/LICENSE)
 [![Build Status](https://travis-ci.org/gabrielferreira/apprelease.svg?branch=master)](https://travis-ci.org/gabrielferreira/apprelease)
-[![Code Climate](https://codeclimate.com/github/gabrielferreira/apprelease/badges/gpa.svg?style=flat-square)](https://codeclimate.com/github/gabrielferreira/apprelease)
-[![Coverage Status](https://coveralls.io/repos/gabrielferreira/apprelease/badge.svg?style=flat-square)](https://coveralls.io/r/gabrielferreira/apprelease)
-[![Github Issues](http://githubbadges.herokuapp.com/badges/badgerbadgerbadger/issues.svg?style=flat-square)](https://github.com/gabrielferreira/apprelease/issues)
-[![Pending Pull-Requests](http://githubbadges.herokuapp.com/badges/badgerbadgerbadger/pulls.svg?style=flat-square)](https://github.com/gabrielferreira/apprelease/pulls)
+[![Code Climate](https://codeclimate.com/github/gabrielferreira/apprelease/badges/gpa.svg?style=flat)](https://codeclimate.com/github/gabrielferreira/apprelease)
+[![Coverage Status](https://coveralls.io/repos/gabrielferreira/apprelease/badge.svg?style=flat)](https://coveralls.io/r/gabrielferreira/apprelease)
+[![GitHub issues](https://img.shields.io/github/issues/badges/shields.svg)](https://github.com/gabrielferreira/apprelease/issues)
+[![Pending Pull-Requests](http://githubbadges.herokuapp.com/badges/badgerbadgerbadger/pulls.svg?style=flat)](https://github.com/gabrielferreira/apprelease/pulls)
 <!--[![Test Coverage](https://codeclimate.com/github/gabrielferreira/apprelease/badges/coverage.svg)](https://codeclimate.com/github/gabrielferreira/apprelease/coverage)-->
 <!---->
 <!--Travis CI-->
