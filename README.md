@@ -7,7 +7,9 @@ apprelease
 [![Code Climate](https://codeclimate.com/github/gabrielferreira/apprelease/badges/gpa.svg?style=flat)](https://codeclimate.com/github/gabrielferreira/apprelease)
 [![Coverage Status](https://coveralls.io/repos/gabrielferreira/apprelease/badge.svg?style=flat)](https://coveralls.io/r/gabrielferreira/apprelease)
 [![GitHub issues](https://img.shields.io/github/issues/badges/shields.svg)](https://github.com/gabrielferreira/apprelease/issues)
-[![Pending Pull-Requests](http://githubbadges.herokuapp.com/badges/badgerbadgerbadger/pulls.svg?style=flat)](https://github.com/gabrielferreira/apprelease/pulls)
+[![Pending Pull-Requests](https://img.shields.io/github/pulls/badges/shields.svg)](https://github.com/gabrielferreira/apprelease/pulls)
+
+<!--[![Pending Pull-Requests](http://githubbadges.herokuapp.com/badges/badgerbadgerbadger/pulls.svg?style=flat)](https://github.com/gabrielferreira/apprelease/pulls)-->
 <!--[![Test Coverage](https://codeclimate.com/github/gabrielferreira/apprelease/badges/coverage.svg)](https://codeclimate.com/github/gabrielferreira/apprelease/coverage)-->
 <!---->
 <!--Travis CI-->
