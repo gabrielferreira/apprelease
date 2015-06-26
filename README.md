@@ -8,6 +8,8 @@ apprelease
 [![Coverage Status](https://coveralls.io/repos/gabrielferreira/apprelease/badge.svg?style=flat)](https://coveralls.io/r/gabrielferreira/apprelease)
 [![GitHub issues](https://img.shields.io/github/issues/badges/shields.svg)](https://github.com/gabrielferreira/apprelease/issues)
 [![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg)](https://github.com/gabrielferreira/apprelease/network)
+[![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg)](https://github.com/gabrielferreira/apprelease/stargazers)
+[![GitHub followers](https://img.shields.io/github/followers/espadrine.svg)](https://github.com/gabrielferreira/apprelease/watchers)
 
 <!--[![Pending Pull-Requests](http://githubbadges.herokuapp.com/badges/badgerbadgerbadger/pulls.svg?style=flat)](https://github.com/gabrielferreira/apprelease/pulls)-->
 <!--[![Test Coverage](https://codeclimate.com/github/gabrielferreira/apprelease/badges/coverage.svg)](https://codeclimate.com/github/gabrielferreira/apprelease/coverage)-->
