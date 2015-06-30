@@ -7,7 +7,7 @@ apprelease
 [![Code Climate](https://codeclimate.com/github/gabrielferreira/apprelease/badges/gpa.svg?style=flat)](https://codeclimate.com/github/gabrielferreira/apprelease)
 [![Coverage Status](https://coveralls.io/repos/gabrielferreira/apprelease/badge.svg?style=flat)](https://coveralls.io/r/gabrielferreira/apprelease)
 [![Requirements Status](https://requires.io/github/gabrielferreira/apprelease/requirements.svg?branch=master)](https://requires.io/github/gabrielferreira/apprelease/requirements/?branch=master)
-[![Gratipay](https://img.shields.io/gratipay/gabrielferreira.svg)](https://gratipay.com/~gabrielferreira/)
+[![Gratipay](http://img.shields.io/gratipay/gabrielferreira.svg)](https://gratipay.com/~gabrielferreira/)
 <!--[![GitHub issues](https://img.shields.io/github/issues/badges/shields.svg)](https://github.com/gabrielferreira/apprelease/issues)-->
 <!--[![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg)](https://github.com/gabrielferreira/apprelease/network)-->
 <!--[![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg)](https://github.com/gabrielferreira/apprelease/stargazers)-->
@@ -52,3 +52,7 @@ Developed and maintained by [Gabriel Ferreira](http://gabrielferreira.com).
 <!--Thanks to everybody that has contributed pull requests, ideas, issues, comments and kind words.-->
 <!---->
 Please see [AUTHORS.md](https://github.com/gabrielferreira/apprelease/blob/master/AUTHORS.md) for a list of contributors.
+
+
+## If you want to contribute give me some coins
+To make a donation our Bitcoin wallet address is: 3ERMUCES79EGTfAZ6vc5GFy1VefFkU8CAX 
