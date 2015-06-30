@@ -56,3 +56,6 @@ Please see [AUTHORS.md](https://github.com/gabrielferreira/apprelease/blob/maste
 
 ## If you want to contribute give me some coins
 To make a donation our Bitcoin wallet address is: 3ERMUCES79EGTfAZ6vc5GFy1VefFkU8CAX 
+<h3 align="left">
+  <img src="assets/bitwallet.png" alt="Bitcoin wallet QRcode" />
+</h3>
