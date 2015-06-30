@@ -7,7 +7,7 @@ apprelease
 [![Code Climate](https://codeclimate.com/github/gabrielferreira/apprelease/badges/gpa.svg?style=flat)](https://codeclimate.com/github/gabrielferreira/apprelease)
 [![Coverage Status](https://coveralls.io/repos/gabrielferreira/apprelease/badge.svg?style=flat)](https://coveralls.io/r/gabrielferreira/apprelease)
 [![Requirements Status](https://requires.io/github/gabrielferreira/apprelease/requirements.svg?branch=master)](https://requires.io/github/gabrielferreira/apprelease/requirements/?branch=master)
-[![Gratipay](http://img.shields.io/gratipay/gabrielferreira.svg)](https://gratipay.com/~gabrielferreira/)
+[![Gratipay](http://img.shields.io/gratipay/gabrielferreira.svg)](http://gratipay.com/~gabrielferreira/)
 <!--[![GitHub issues](https://img.shields.io/github/issues/badges/shields.svg)](https://github.com/gabrielferreira/apprelease/issues)-->
 <!--[![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg)](https://github.com/gabrielferreira/apprelease/network)-->
 <!--[![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg)](https://github.com/gabrielferreira/apprelease/stargazers)-->
