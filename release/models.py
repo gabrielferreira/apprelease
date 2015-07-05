@@ -14,6 +14,7 @@ class Platform(models.Model):
     class Meta:
         ordering = ('name',)
 
+
 class Application(models.Model):
     name = models.CharField(max_length=150, help_text='Set the application name',
                                 unique=True, blank=False, null=False, db_index=True)
@@ -34,13 +35,12 @@ class Application(models.Model):
     class Meta:
         ordering = ('name',)
 
-class Flavour(models.Model):
-    name = models.CharField(max_length=150, help_text='Set the flavour name',
+
+class Environment(models.Model):
+    name = models.CharField(max_length=20, help_text='Set the environment name',
                                 unique=True, blank=False, null=False, db_index=True)
     slug = models.SlugField(max_length=150)
     application = models.ForeignKey('Application')
-    platform = models.ForeignKey('Platform')
-    user = models.ForeignKey(User)
 
     def __unicode__(self):
         return self.name
@@ -48,14 +48,29 @@ class Flavour(models.Model):
     class Meta:
         ordering = ('name',)
 
+
+class Flavour(models.Model):
+    name = models.CharField(max_length=150, help_text='Set the flavour name',
+                                unique=True, blank=False, null=False, db_index=True)
+    slug = models.SlugField(max_length=150)
+    application = models.ForeignKey('Application')
+    platform = models.ForeignKey('Platform')
+
+    def __unicode__(self):
+        return self.name
+
+    class Meta:
+        ordering = ('name',)
+
+
 class Release(models.Model):
     version = models.CharField(max_length=50, help_text='Set the release version',
                                 blank=False, null=False, db_index=True)
     flavour = models.ManyToManyField('Flavour')
+    flavour = models.ForeignKey('Environment')
     release = models.FileField(upload_to='releases', null=False, blank=False)
     date = models.DateTimeField(auto_now=True)
     notes = models.TextField()
-    user = models.ForeignKey(User)
 
     def __unicode__(self):
         return self.version
