@@ -21,6 +21,7 @@ from release import views
 # Routers provide an easy way of automatically determining the URL conf.
 router = routers.DefaultRouter()
 router.register(r'applications', views.ApplicationViewSet)
+router.register(r'releases', views.ReleaseViewSet)
 
 urlpatterns = [
     url(r'^', include(router.urls)),

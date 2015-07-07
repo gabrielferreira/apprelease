@@ -67,7 +67,7 @@ class Release(models.Model):
     version = models.CharField(max_length=50, help_text='Set the release version',
                                 blank=False, null=False, db_index=True)
     flavour = models.ManyToManyField('Flavour')
-    flavour = models.ForeignKey('Environment')
+    environment = models.ForeignKey('Environment')
     release = models.FileField(upload_to='releases', null=False, blank=False)
     date = models.DateTimeField(auto_now=True)
     notes = models.TextField()
