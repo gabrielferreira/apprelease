@@ -58,6 +58,3 @@ target/
 
 #Sqlite
 *.sqlite3
-
-*ENVS
-apprelease-openshift/
