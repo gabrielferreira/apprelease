@@ -24,7 +24,6 @@ class Application(models.Model):
                                 null=False)
     slug = models.SlugField(max_length=150)
     platform = models.ManyToManyField('Platform')
-    user = models.ForeignKey(User)
     logo = models.ImageField(upload_to='logos', null=True, blank=True)
     email = models.EmailField('Email', null=False, blank=False)
     bundle_id = models.CharField(max_length=250, null=True, blank=True)
