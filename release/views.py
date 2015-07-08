@@ -14,7 +14,7 @@ class ReleaseViewSet(viewsets.ModelViewSet):
     serializer_class = ReleaseSerializer
 
 class FlavourViewSet(viewsets.ModelViewSet):
-    queryset = Application.objects.all()
+    queryset = Flavour.objects.all()
     serializer_class = FlavourSerializer
 
 class EnvironmentViewSet(viewsets.ModelViewSet):
