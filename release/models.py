@@ -5,7 +5,6 @@ from django.contrib.auth.models import User
 class Platform(models.Model):
     name = models.CharField(max_length=50, help_text='Set the platform name',
                                 unique=True, blank=False, null=False, db_index=True)
-    user = models.ForeignKey(User)
     slug = models.SlugField(max_length=50)
 
     def __unicode__(self):
