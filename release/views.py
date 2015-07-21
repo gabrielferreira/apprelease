@@ -5,7 +5,11 @@ from .serializers import ApplicationSerializer, ReleaseSerializer, FlavourSerial
 
 # Create your views here.
 # ViewSets define the view behavior.
+from rest_framework.authentication import SessionAuthentication, BasicAuthentication
+from rest_framework.permissions import IsAuthenticated, IsAuthenticatedOrReadOnly
 class ApplicationViewSet(viewsets.ModelViewSet):
+    authentication_classes = (SessionAuthentication, BasicAuthentication)
+    permission_classes = (IsAuthenticatedOrReadOnly,)
     queryset = Application.objects.all()
     serializer_class = ApplicationSerializer
 
