@@ -130,7 +130,7 @@ if DEBUG:
     STATIC_URL = '/static/'
 else:
     AWS_HEADERS = {  # see http://developer.yahoo.com/performance/rules.html#expires
-        'Cache-Control': 'max-age=94608000',
+        'Cache-Control': 'max-age=%s' % (os.environ.get('CACHE_MAX_AGE')),
     }
 
     AWS_STORAGE_BUCKET_NAME = os.environ.get('AWS_STORAGE_BUCKET_NAME')
