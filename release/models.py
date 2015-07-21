@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
+from django.db.models import permalink
 
 # Create your models here.
 class Platform(models.Model):
@@ -32,6 +33,10 @@ class Application(models.Model):
 
     class Meta:
         ordering = ('name',)
+
+    @permalink
+    def get_absolute_url(self):
+        return ('view_application', None, { 'slug': self.slug })
 
 
 class Environment(models.Model):

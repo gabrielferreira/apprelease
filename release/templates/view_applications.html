@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %}Welcome to apprelease{% endblock %}
+
+{% block content %}
+    <h2>Applications</h2>
+    {% if applications %}
+        <ul>
+        {% for application in applications %}
+            <li>{{ application.title }}</li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>There are no applications.</p>
+    {% endif %}
+
+{% endblock %}
