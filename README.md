@@ -31,7 +31,14 @@ Get in contact with the developer on Twitter: [@RackNerd](https://twitter.com/Ra
 
 ## Installation
 
-Comming soon...
+```sh
+$ git clone https://github.com/gabrielferreira/apprelease.git
+$ cd apprelease
+$ pip install -r requirements.txt
+$ ./manage.py syncdb
+$ ./manage.py migrate
+$ ./manage.py runserver
+```
 
 ## Quick Start
 
@@ -55,7 +62,7 @@ Please see [AUTHORS.md](https://github.com/gabrielferreira/apprelease/blob/maste
 
 
 ## If you want to contribute give me some coins
-To make a donation my Bitcoin wallet address is: 3ERMUCES79EGTfAZ6vc5GFy1VefFkU8CAX 
+To make a donation my Bitcoin wallet address is: 3ERMUCES79EGTfAZ6vc5GFy1VefFkU8CAX
 <h3 align="left">
   <img src="assets/bitwallet.png" alt="Bitcoin wallet QRcode" />
 </h3>
