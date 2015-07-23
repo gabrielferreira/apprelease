@@ -1,12 +1,11 @@
 {% extends 'base.html' %}
 {% block title %}Welcome to apprelease{% endblock %}
-
-{% block content %}
+{% block bootstrap3_content %}
     <h2>Applications</h2>
     {% if applications %}
         <ul>
         {% for application in applications %}
-            <li>{{ application.name }}</li>
+            <li><a href="{{ application.name }}">{{ application.name }}</a></li>
         {% endfor %}
         </ul>
     {% else %}

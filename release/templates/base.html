@@ -1,11 +1,15 @@
+{% extends 'bootstrap3/bootstrap3.html' %}
+{% load bootstrap3 %}
+{% load url from future %}
 <html>
     <head>
         <title>{% block head_title %}Welcome to apprelease{% endblock %}</title>
     </head>
     <body>
         <h1>{% block title %}Welcome to apprelease{% endblock %}</h1>
-        {% block content %}
-
+        {% block bootstrap3_content %}
+        {% bootstrap_messages %}
+        {% block content %}(no content){% endblock %}
         {% endblock %}
     </body>
 </html>
