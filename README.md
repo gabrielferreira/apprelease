@@ -4,6 +4,7 @@ apprelease
 [![Twitter: @RackNerd](https://img.shields.io/badge/contact-@racknerd-blue.svg?style=flat)](https://twitter.com/RackNerd)
 [![License](http://img.shields.io/:license-apache%202.0-green.svg?style=flat)](https://github.com/gabrielferreira/apprelease/blob/master/LICENSE)
 [![Build Status](https://travis-ci.org/gabrielferreira/apprelease.svg?branch=master)](https://travis-ci.org/gabrielferreira/apprelease)
+[![Circle CI](https://circleci.com/gh/gabrielferreira/apprelease.svg?style=svg)](https://circleci.com/gh/gabrielferreira/apprelease)
 [![Code Climate](https://codeclimate.com/github/gabrielferreira/apprelease/badges/gpa.svg?style=flat)](https://codeclimate.com/github/gabrielferreira/apprelease)
 [![Coverage Status](https://coveralls.io/repos/gabrielferreira/apprelease/badge.svg?style=flat)](https://coveralls.io/r/gabrielferreira/apprelease)
 [![Requirements Status](https://requires.io/github/gabrielferreira/apprelease/requirements.svg?branch=master)](https://requires.io/github/gabrielferreira/apprelease/requirements/?branch=master)
