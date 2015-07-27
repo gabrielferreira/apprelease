@@ -41,15 +41,16 @@ class Application(models.Model):
 
 class Environment(models.Model):
     name = models.CharField(max_length=20, help_text='Set the environment name',
-                                unique=True, blank=False, null=False, db_index=True)
+                                blank=False, null=False, db_index=True)
     slug = models.SlugField(max_length=150)
     application = models.ForeignKey('Application')
 
     def __unicode__(self):
-        return self.name
+        return '%s-%s' % (self.name, self.application)
 
     class Meta:
         ordering = ('name',)
+        unique_together = ('name', 'application',)
 
 
 class Flavour(models.Model):
@@ -60,7 +61,7 @@ class Flavour(models.Model):
     platform = models.ForeignKey('Platform')
 
     def __unicode__(self):
-        return self.name
+        return '%s-%s-%s' % (self.name, self.application, self.platform)
 
     class Meta:
         ordering = ('name', 'application', 'platform')
@@ -77,7 +78,8 @@ class Release(models.Model):
     notes = models.TextField()
 
     def __unicode__(self):
-        return self.version
+        return '%s-%s-%s' % (self.version, self.environment)
 
     class Meta:
         ordering = ('version',)
+        unique_together = ('version', 'environment')
