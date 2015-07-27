@@ -20,7 +20,6 @@ from release import views
 from rest_framework.authtoken import views as restviews
 
 
-
 from django.contrib.auth.models import User
 from rest_framework.authtoken.models import Token
 for user in User.objects.all():
@@ -41,4 +40,5 @@ urlpatterns = [
     url(r'^api-token-auth/', restviews.obtain_auth_token),
     url(r'^applications', 'release.views.view_applications', name='view_applications'),
     url(r'^environments/(?P<application>[0-9]+)/$', 'release.views.view_environments', name='view_environments'),
+    url(r'^releases/(?P<application>[0-9]+)/$', views.view_releases_by_application, name='view_releases_by_application'),
 ]

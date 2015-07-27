@@ -6,7 +6,7 @@
     {% if applications %}
         <ul>
         {% for application in applications %}
-            <li><a href="/environments/{{ application.id }}">{{ application.name }}</a></li>
+            <li><a href="/releases/{{ application.id }}">{{ application.name }}</a></li>
         {% endfor %}
         </ul>
     {% else %}
