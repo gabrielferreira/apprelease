@@ -54,7 +54,7 @@ class Environment(models.Model):
 
 class Flavour(models.Model):
     name = models.CharField(max_length=150, help_text='Set the flavour name',
-                                unique=True, blank=False, null=False, db_index=True)
+                                blank=False, null=False, db_index=True)
     slug = models.SlugField(max_length=150)
     application = models.ForeignKey('Application')
     platform = models.ForeignKey('Platform')
@@ -63,7 +63,8 @@ class Flavour(models.Model):
         return self.name
 
     class Meta:
-        ordering = ('name',)
+        ordering = ('name', 'application', 'platform')
+        unique_together = ('name', 'application', 'platform',)
 
 
 class Release(models.Model):
