@@ -40,4 +40,5 @@ urlpatterns = [
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     url(r'^api-token-auth/', restviews.obtain_auth_token),
     url(r'^applications', 'release.views.view_applications', name='view_applications'),
+    url(r'^environments/(?P<application>[0-9]+)/$', 'release.views.view_environments', name='view_environments'),
 ]

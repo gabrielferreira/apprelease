@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+ <div class="container">
+    <h1>{% block title %}Welcome to apprelease{% endblock %}</h1>
+    <h2>{% block subtitle %}Environments{% endblock %}</h2>
+    {% if environments %}
+        <ul>
+        {% for environment in environments %}
+            <li><a href="{{ environment.id }}">{{ environment.name }}</a></li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>There are no environments.</p>
+    {% endif %}
+
+</div>
+
+{% endblock %}
