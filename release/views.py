@@ -39,13 +39,11 @@ class PlatformViewSet(viewsets.ModelViewSet):
     serializer_class = PlatformSerializer
 
 def view_applications(request):
-    # applications = get_object_or_404(Application.objects.all())
     return render_to_response('view_applications.html', {
         'applications': Application.objects.all()
     })
 
 def view_environments(request, application):
-    # environments = get_object_or_404()
     return render_to_response('view_environments.html', {
         'environments': Environment.objects.filter(application__id=application).all()
     })
