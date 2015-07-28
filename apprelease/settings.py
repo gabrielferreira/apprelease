@@ -79,6 +79,8 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django.core.context_processors.media',
+                'django.core.context_processors.static',
             ],
         },
     },
@@ -129,6 +131,7 @@ USE_TZ = True
 
 if DEBUG:
     STATIC_URL = '/static/'
+    MEDIA_URL = "/"
 else:
     AWS_HEADERS = {  # see http://developer.yahoo.com/performance/rules.html#expires
         'Cache-Control': 'max-age=%s' % (os.environ.get('CACHE_MAX_AGE')),
