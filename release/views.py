@@ -50,5 +50,5 @@ def view_environments(request, application):
 
 def view_releases_by_application(request, application):
     return render_to_response('view_releases.html', {
-        'releases': Release.objects.filter(environment__application__id=application).all()
+        'releases': Release.objects.filter(environment__application__id=application).order_by('-date').all()
     })
