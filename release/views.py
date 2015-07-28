@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.shortcuts import render_to_response, get_object_or_404
+from django.template.context import RequestContext
 from rest_framework import viewsets
 from rest_framework.authentication import SessionAuthentication, BasicAuthentication, TokenAuthentication
 from rest_framework.permissions import IsAuthenticated, IsAuthenticatedOrReadOnly
@@ -52,3 +53,8 @@ def view_releases_by_application(request, application):
     return render_to_response('view_releases.html', {
         'releases': Release.objects.filter(environment__application__id=application).order_by('-date').all()
     })
+
+def view_release(request, release):
+    return render_to_response('view_release.html', context_instance=RequestContext(request, {
+        'release': Release.objects.get(id=release)
+    }))

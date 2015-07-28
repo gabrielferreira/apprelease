@@ -78,7 +78,7 @@ class Release(models.Model):
     notes = models.TextField()
 
     def __unicode__(self):
-        return '%s-%s-%s' % (self.version, self.environment)
+        return '%s-%s' % (self.version, self.environment)
 
     class Meta:
         ordering = ('version',)

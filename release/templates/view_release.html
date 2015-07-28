@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+ <div class="container">
+    <h1>{% block title %}Welcome to apprelease{% endblock %}</h1>
+    <h2>{% block subtitle %}Release{% endblock %}</h2>
+    {% if release %}
+        <ul title="Release {{ release.version }}">
+            <li><a href="{{ MEDIA_URL }}{{ release.release }}">{{ release.version }}</a></li>
+        </ul>
+    {% else %}
+        <p>This release do not exist.</p>
+    {% endif %}
+
+</div>
+
+{% endblock %}

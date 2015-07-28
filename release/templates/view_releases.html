@@ -6,7 +6,7 @@
     {% if releases %}
         <ul>
         {% for release in releases %}
-            <li><a href="{{ release.id }}">{{ release.version }}</a></li>
+            <li><a href="/release/{{ release.id }}">{{ release.version }}</a></li>
         {% endfor %}
         </ul>
     {% else %}
