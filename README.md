@@ -29,6 +29,10 @@ Get in contact with the developer on Twitter: [@RackNerd](https://twitter.com/Ra
 You must have this requirements installed:
 * python2.7
 * pip
+* gcc
+* sqlite-devel #if you have problems installing sqlite
+* patch #if you have problems installing gnureadline
+* mysql-devel #if you have problems installing mysqlclient
 
 ```sh
 $ git clone https://github.com/gabrielferreira/apprelease.git
