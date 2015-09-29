@@ -27,19 +27,19 @@ for user in User.objects.all():
 
 # Routers provide an easy way of automatically determining the URL conf.
 router = routers.DefaultRouter()
-router.register(r'applications', views.ApplicationViewSet)
-router.register(r'releases', views.ReleaseViewSet)
-router.register(r'flavours', views.FlavourViewSet)
-router.register(r'platforms', views.PlatformViewSet)
-router.register(r'environments', views.EnvironmentViewSet)
+# router.register(r'applications', views.ApplicationViewSet)
+# router.register(r'releases', views.ReleaseViewSet)
+# router.register(r'flavours', views.FlavourViewSet)
+# router.register(r'platforms', views.PlatformViewSet)
+# router.register(r'environments', views.EnvironmentViewSet)
 
 urlpatterns = [
     url(r'^api/', include(router.urls)),
     url(r'^admin/', include(admin.site.urls)),
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     url(r'^api-token-auth/', restviews.obtain_auth_token),
-    url(r'^applications', 'release.views.view_applications', name='view_applications'),
-    url(r'^environments/(?P<application>[0-9]+)/$', views.view_environments, name='view_environments'),
-    url(r'^releases/(?P<application>[0-9]+)/$', views.view_releases_by_application, name='view_releases_by_application'),
-    url(r'^release/(?P<release>[0-9]+)/$', views.view_release, name='view_release'),
+    # url(r'^applications', 'release.views.view_applications', name='view_applications'),
+    # url(r'^environments/(?P<application>[0-9]+)/$', views.view_environments, name='view_environments'),
+    # url(r'^releases/(?P<application>[0-9]+)/$', views.view_releases_by_application, name='view_releases_by_application'),
+    # url(r'^release/(?P<release>[0-9]+)/$', views.view_release, name='view_release'),
 ]
