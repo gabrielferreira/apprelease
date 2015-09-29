@@ -16,7 +16,7 @@ Including another URLconf
 from django.conf.urls import include, url
 from rest_framework import routers
 from django.contrib import admin
-from release import views
+# from release import views
 from rest_framework.authtoken import views as restviews
 
 
