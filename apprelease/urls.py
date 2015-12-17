@@ -20,10 +20,10 @@ from django.contrib import admin
 from rest_framework.authtoken import views as restviews
 
 
-from django.contrib.auth.models import User
-from rest_framework.authtoken.models import Token
-for user in User.objects.all():
-    Token.objects.get_or_create(user=user)
+# from django.contrib.auth.models import User
+# from rest_framework.authtoken.models import Token
+# for user in User.objects.all():
+#     Token.objects.get_or_create(user=user)
 
 # Routers provide an easy way of automatically determining the URL conf.
 router = routers.DefaultRouter()
