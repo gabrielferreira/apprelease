@@ -1,13 +1,12 @@
 #!/bin/bash
 
-cd /docker-mobrelease/app
+cd /var/www/html
 
-echo CREATE DATABASE IF NOT EXISTS apprelease | mysql -uroot -h mysql
+#echo CREATE DATABASE IF NOT EXISTS apprelease | mysql -uroot -h mysql
 
 python manage.py syncdb --noinput
 python manage.py migrate
-python manage.py loaddata ./csmobrelease/fixtures/user.json
-python manage.py loaddata ./apps/mobrelease/fixtures/platform.json
-python manage.py collectstatic --noinput
+# python manage.py collectstatic --noinput
 
-/usr/sbin/apache2ctl -D FOREGROUND
+# /usr/sbin/apache2ctl -D FOREGROUND
+python manage.py runserver 0.0.0.0:8080

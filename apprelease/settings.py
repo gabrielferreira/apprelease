@@ -14,7 +14,7 @@ https://docs.djangoproject.com/en/1.8/ref/settings/
 import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
+ADMINS = [('Gabriel Ferreira', 'contato@gabrielferreira.com'),('admin', 'admin@admin.com')]
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/
@@ -37,11 +37,11 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'rest_framework.authtoken',
     'bootstrap3',
     'storages',
-    'release',
-    'rest_framework',
-    'rest_framework.authtoken'
+    'release'
 )
 
 DAB_FIELD_RENDERER = 'django_admin_bootstrapped.renderers.BootstrapFieldRenderer'
@@ -169,3 +169,24 @@ REST_FRAMEWORK = {
     #     'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
     # ]
 }
+
+import django
+django.setup()
+from django.conf import settings
+try:
+    from django.contrib.auth import get_user_model
+    User = get_user_model()
+except ImportError:
+    from django.contrib.auth.models import User
+if User.objects.count() == 0:
+    for user in settings.ADMINS:
+        username = user[0].replace(' ', '')
+        email = user[1]
+        password = 'admin'
+        print('Creating account for %s (%s)' % (username, email))
+        admin = User.objects.create_superuser(email=email, username=username, password=password)
+        admin.is_active = True
+        admin.is_admin = True
+        admin.save()
+else:
+    print('Admin accounts can only be initialized if no Accounts exist')
