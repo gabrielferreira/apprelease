@@ -9,14 +9,6 @@ apprelease
 [![Coverage Status](https://coveralls.io/repos/gabrielferreira/apprelease/badge.svg?style=flat)](https://coveralls.io/r/gabrielferreira/apprelease)
 [![Requirements Status](https://requires.io/github/gabrielferreira/apprelease/requirements.svg?branch=master)](https://requires.io/github/gabrielferreira/apprelease/requirements/?branch=master)
 [![Gratipay](https://img.shields.io/gratipay/gabrielferreira.svg)](https://gratipay.com/~gabrielferreira/)
-<!--[![GitHub issues](https://img.shields.io/github/issues/badges/shields.svg)](https://github.com/gabrielferreira/apprelease/issues)-->
-<!--[![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg)](https://github.com/gabrielferreira/apprelease/network)-->
-<!--[![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg)](https://github.com/gabrielferreira/apprelease/stargazers)-->
-<!--[![GitHub followers](https://img.shields.io/github/followers/espadrine.svg)](https://github.com/gabrielferreira/apprelease/watchers)-->
-
-<!--[![Pending Pull-Requests](http://githubbadges.herokuapp.com/badges/badgerbadgerbadger/pulls.svg?style=flat)](https://github.com/gabrielferreira/apprelease/pulls)-->
-<!--[![Test Coverage](https://codeclimate.com/github/gabrielferreira/apprelease/badges/coverage.svg)](https://codeclimate.com/github/gabrielferreira/apprelease/coverage)-->
-<!--[![Codeship Status](https://img.shields.io/codeship/d6c1ddd0-16a3-0132-5f85-2e35c05e22b1.svg)](https://codeship.com/projects/87668)-->
 
 ######*apprelease* has been developed with the intention of facilitate unofficial apps deployment in developing or approval stages. with apprelease you can manage versions of your app per platform, devices....
 
