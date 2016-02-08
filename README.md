@@ -9,6 +9,7 @@ apprelease
 [![Coverage Status](https://coveralls.io/repos/gabrielferreira/apprelease/badge.svg?style=flat)](https://coveralls.io/r/gabrielferreira/apprelease)
 [![Requirements Status](https://requires.io/github/gabrielferreira/apprelease/requirements.svg?branch=master)](https://requires.io/github/gabrielferreira/apprelease/requirements/?branch=master)
 [![Gratipay](https://img.shields.io/gratipay/gabrielferreira.svg)](https://gratipay.com/~gabrielferreira/)
+[![Codacy Badge](https://api.codacy.com/project/badge/grade/3cb84876179e4218b33e47f8ec1190d4)](https://www.codacy.com/app/contato_8/apprelease)
 
 ######*apprelease* has been developed with the intention of facilitate unofficial apps deployment in developing or approval stages. with apprelease you can manage versions of your app per platform, devices....
 
